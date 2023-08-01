@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-family: "Happy Monkey", cursive;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+}
+.left-top {
+  display: inline;
+}
+
+.left-bottom {
+  background: skyblue;
+  width: 450px;
+  height: 472px;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+}
+.right-part {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 100%;
+}
+.main-container {
+  display: flex;
+}
+.internal-div {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+h1 {
+  text-align: center;
+}
+.card-one {
+  text-align: center;
+  background-color: paleturquoise;
+  padding-top: 20px;
+  padding-bottom: -50px;
+  border: 2px solid lightgreen;
+  border-radius: 15px;
+  height: 400px;
+  margin-right: 30px;
+  width: 450px;
+}
+#html-img {
+  width: 150px;
+  height: 150px;
+}
+#python-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0px;
+}
+
+.card-two {
+  text-align: center;
+  background-color: paleturquoise;
+  padding-top: 20px;
+  padding-bottom: -50px;
+  border: 2px solid lightgreen;
+  border-radius: 15px;
+  width: 450px;
+}
+
+.external-div {
+  text-align: center;
+}
